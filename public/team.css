@@ -1,0 +1,63 @@
+.team {
+  padding: 40px 0;
+  background: #99CCFF;
+  background-image: linear-gradient(rgba(255, 255, 255), rgba(255, 255, 255, 0.1) 70%);
+  border-bottom: 4px double #336699;
+  border-top: 4px double #336699;
+}
+
+.team-members {
+  padding-top: 40px;
+}
+
+.member-image {
+  display: inline-block;
+  float: left;
+  width: 150px;
+}
+
+.member-photo {
+  border: 5px solid #fff;
+  border-radius: 100%;
+  height: auto;
+}
+
+.member-offer {
+  width: 250px;
+  padding: 20px;
+  border: 5px solid #336699;
+}
+
+.member-details {
+  display: inline-block;
+  max-width: 250px;
+  margin-left: 20px;
+}
+
+.member-details .text-small {
+  display: block;
+  color: #ff2a68;
+}
+
+.member-details .text-small:hover {
+  cursor: pointer;
+}
+
+.member-details .text-medium {
+  margin-bottom: 20px;
+}
+
+.member-social {
+  background: #fff;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 8px 20px 5px;
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
+
+.member-social:hover {
+  filter: none;
+  opacity: 1;
+}
+
